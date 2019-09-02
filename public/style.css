@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+
+* {
+  overflow-x: hidden;
+  font-family: 'Manjari', sans-serif;
+margin: 0 auto;
+
+}
+body {
+    color: dark black;
+    background-color: bisque;
+  }
+
+#nav {
+  background: lightblue;
+padding: 20px;
+
+}
+
+.ul {
+  text-decoration: none;
+display: flex;
+justify-content: space-around;
+color: black;
+
+
+}
+
+li {
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+list-style: none;
+  }
+
+  a.link{
+    text-decoration: none;
+    color: black;
+  }
+
+  a.hover {
+    color: green;
+  }
+
+
+  .photohp {
+    height: 300px;
+    width: auto;
+  }
+
+  h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  h2 {
+    color: green;
+    font-weight: bold;
+    font-size:20px;
+    padding: 20px 0px 0px 20px;
+  }
+
+  p {
+    font-size:18px;
+    font-weight: bold;
+    padding: 20px;
+
+  }
+  #footer {
+    display: flex;
+    justify-content: flex-end;
+padding: 10px;
+  }
+
+ .persan-caractere {
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .persan-caractere:hover {
+   background: green;
+ }
+
+ .nachosabout {
+   height: 550px;
+   margin-left: 20px;
+ }
+
+ .about-container{
+  /* padding-top:50px; */
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 2%;
+  width:80%;
+  margin: 0 auto;
+ }
+
+ .photogallery {
+   display: flex;
+   align-items: center;
+   align-content: center;
+ }
+
+ .arrow {
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   height: 200px;
+ }
+
+ .home-container{
+  /* padding-top:50px; */
+  display:grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 2%;
+  width:80%;
+  margin: 0 auto;
+ }
+
+ .photohp {
+   height: 600px;
+ }
